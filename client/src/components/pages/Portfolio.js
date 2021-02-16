@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function Portfolio() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <div>
+      <h1>I'm the portfolio page</h1>
+    </div>
+  );
 }
