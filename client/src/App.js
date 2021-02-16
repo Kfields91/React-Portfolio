@@ -1,19 +1,18 @@
-/* eslint-disable react/prefer-stateless-function */
-import React, { Component } from "react";
-import "./App.css";
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
+import Portfolio from "./components/pages/Portfolio";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <h2>
-            React Portfolio
-          </h2>
-        </div>
-        </div>
-    );
-  }
+function App() {
+  return (
+    <Router>
+      <div>
+        <Navbar />
+      </div>
+    </Router>
+  );
 }
 
 export default App;
