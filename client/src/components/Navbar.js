@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <h1 className="navbar-brand">Kelsea's Porfolio</h1>
+      <h1 className="navbar-brand">Kelsea's Portfolio</h1>
       <div>
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
               to="/"
               className={
-                window.location.pathname === "/discover"
+                window.location.pathname === "/"
                   ? "nav-link active"
                   : "nav-link"
               }
@@ -24,7 +24,7 @@ function Navbar() {
             <Link
               to="/portfolio"
               className={
-                window.location.pathname === "/discover"
+                window.location.pathname === "/portfolio"
                   ? "nav-link active"
                   : "nav-link"
               }
@@ -36,7 +36,7 @@ function Navbar() {
             <Link
               to="/contact"
               className={
-                window.location.pathname === "/search"
+                window.location.pathname === "/contact"
                   ? "nav-link active"
                   : "nav-link"
               }
