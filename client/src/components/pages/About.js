@@ -7,8 +7,9 @@ function About() {
     <div>
       <Container>
         <Row>
-          {/* IMAGE GOES HERE */}
-          <h1 className="text-center">About Me</h1>
+          <img src="/images/profile.jpg" width="250" height="250"/>
+          {/* NEED TO STYLE H1 TO CENTER OR REALIGN DIFF CLASSNAME*/}
+          <h1 className="justify-text-center">About Me</h1>
           <p>
             Growing up in the Pacific NorthWest where it's constantly raining
             taught me how to lean into my imagination. I recently made a career
