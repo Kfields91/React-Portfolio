@@ -1,0 +1,46 @@
+.profile-pic {
+    float: left;
+    padding: 10px;
+}
+
+body {
+    background-image: url("/images/reactprofile2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    color: white;
+}
+
+h1 {
+    color:white;
+}
+
+p {
+    color:white;
+}
+
+div.row {
+    color:white;
+}
+
+.contacth1 {
+    color: black;
+}
+
+.form-group {
+    color:black;
+}
+
+button.btn.btn-primary {
+    background-color:rgb(108, 97, 182);
+    color:rgb(145, 198, 236);
+    font-variant: small-caps
+}
+
+h1.contacth1 {
+   text-align: center;
+}
+
+.card-body {
+    background-color: ghostwhite;
+} 

@@ -1,16 +1,19 @@
 import React from "react";
 import Container from "../Container";
 import Row from "../Row/Row";
+import "./style.css";
 
 function About() {
   return (
     <div>
       <Container>
         <Row>
-          <img src="/images/profile.jpg" width="250" height="250"/>
+          <h1 className="heading">About Me</h1>
+        </Row> 
+        <Row> 
           {/* NEED TO STYLE H1 TO CENTER OR REALIGN DIFF CLASSNAME*/}
-          <h1 className="justify-text-center">About Me</h1>
-          <p>
+          <p className="aboutmep">
+          <img className="profile-pic" src="/images/profile.jpg" width="250" height="250"/>
             Growing up in the Pacific NorthWest where it's constantly raining
             taught me how to lean into my imagination. I recently made a career
             change because I believe imagination, innovation, and science are

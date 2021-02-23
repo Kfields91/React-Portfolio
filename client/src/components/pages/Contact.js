@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../Container";
+import "./style.css";
 
 function Contact() {
   return (
@@ -9,7 +10,7 @@ function Contact() {
           <div class="col-md-8">
             <div class="card ">
               <div class="card-body">
-                <h1>Contact</h1>
+                <h1 className="contacth1">Contact</h1>
                 <hr />
                 <form
                   class="col-md-9"
