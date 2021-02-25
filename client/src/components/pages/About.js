@@ -48,10 +48,10 @@ function About() {
           {/* NEED HELP WITH THESE LINKS IN REACT && HOW TO REDIRECT IN NEW TAB*/}
           <ul>
             <li>
-              <a href="https://github.com/Kfields91">Github</a>
+              <a target="_blank" href="https://github.com/Kfields91">Github</a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/kelsea-fields-42b7971ab">
+              <a target="_blank" href="https://www.linkedin.com/in/kelsea-fields-42b7971ab">
                 LinkedIn
               </a>
             </li>
@@ -62,7 +62,7 @@ function About() {
           <h5>Resume: </h5>
           <ul>
             <li>
-              <a href="./assets/extras/resume2.pdf" download>
+              <a target="_blank" href="\assests\resume2.pdf" download>
                 Click HERE to download a pdf of my resume
               </a>
             </li>
