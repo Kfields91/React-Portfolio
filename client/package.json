@@ -2,7 +2,7 @@
   "name": "React-Portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://Kfields91.github.io/React-Portfolio",
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "bootstrap": "^4.6.0",
