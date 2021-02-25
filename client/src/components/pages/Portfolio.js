@@ -1,12 +1,14 @@
 import React from "react";
 import Container from "../Container/index";
-import { Carousel, Image } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
+import Card from "../Card/index";
 import "./style.css";
 
 const mystyle = {
-  maxWidth: "75%",
+  maxWidth: "65%",
   height:"379px",
-  margin:"0 auto"
+  margin:"0 auto",
+  padding: "15px"
 };
 
 export default function Portfolio() {
@@ -24,11 +26,6 @@ export default function Portfolio() {
             />
             <Carousel.Caption>
               <h3 className="dayplanner">Day Planner App</h3>
-              <a href="https://github.com/Kfields91/Dayplanner">Repo Link</a>
-              <br />
-              <a href="https://kfields91.github.io/Dayplanner/">
-                Deployed Link
-              </a>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -42,12 +39,6 @@ export default function Portfolio() {
 
             <Carousel.Caption>
               <h3 className="habitrabbit">Habit Rabbit</h3>
-              {/* NEED TO FIX REPO LINKS */}
-              <a href="https://github.com/Kfields91/Dayplanner">Repo Link</a>
-              <br />
-              <a href="https://kfields91.github.io/Dayplanner/">
-                Deployed Link
-              </a>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -61,11 +52,6 @@ export default function Portfolio() {
 
             <Carousel.Caption>
               <h3 className="burgerapp">Eat-the-Burger App</h3>
-              <a href="https://github.com/Kfields91/Dayplanner">Repo Link</a>
-              <br />
-              <a href="https://kfields91.github.io/Dayplanner/">
-                Deployed Link
-              </a>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -78,11 +64,6 @@ export default function Portfolio() {
             />
             <Carousel.Caption>
               <h3 className="employee">Employee Directory</h3>
-              <a href="https://github.com/Kfields91/Dayplanner">Repo Link</a>
-              <br />
-              <a href="https://kfields91.github.io/Dayplanner/">
-                Deployed Link
-              </a>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -95,11 +76,6 @@ export default function Portfolio() {
             />
             <Carousel.Caption>
               <h3 className="fitness">Fitness Tracker App</h3>
-              <a href="https://github.com/Kfields91/Dayplanner">Repo Link</a>
-              <br />
-              <a href="https://kfields91.github.io/Dayplanner/">
-                Deployed Link
-              </a>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -112,14 +88,10 @@ export default function Portfolio() {
             />
             <Carousel.Caption>
               <h3 className="generator">ReadME Generator</h3>
-              <a href="https://github.com/Kfields91/Dayplanner">Repo Link</a>
-              <br />
-              <a href="https://kfields91.github.io/Dayplanner/">
-                Deployed Link
-              </a>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+        <Card />
       </Container>
     </div>
   );
