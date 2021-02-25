@@ -1,3 +1,9 @@
 ul {
   list-style-type: none;
 }
+
+ul.projectlist {
+  color:black;
+  margin: 0px;
+  padding: 7px;
+}

@@ -1,46 +1,66 @@
 .profile-pic {
-    float: left;
-    padding: 10px;
+  float: left;
+  padding: 10px;
 }
 
 body {
-    background-image: url("/images/reactprofile2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    color: white;
+  background-image: url("/images/reactprofile2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
 }
 
 h1 {
-    color:white;
+  color: white;
 }
 
 p {
-    color:white;
+  color: white;
 }
 
 div.row {
-    color:white;
+  color: white;
 }
 
 .contacth1 {
-    color: black;
+  color: black;
 }
 
 .form-group {
-    color:black;
+  color: black;
 }
 
 button.btn.btn-primary {
-    background-color:rgb(108, 97, 182);
-    color:rgb(145, 198, 236);
-    font-variant: small-caps
+  background-color: rgb(108, 97, 182);
+  color: rgb(145, 198, 236);
+  font-variant: small-caps;
 }
 
 h1.contacth1 {
-   text-align: center;
+  text-align: center;
 }
 
 .card-body {
-    background-color: ghostwhite;
-} 
+  background-color: ghostwhite;
+}
+
+h3.dayplanner {
+  color: red;
+}
+h3.habitrabbit {
+  color: black;
+}
+h3.burgerapp {
+  color: rgb(23, 25, 25);
+}
+
+h3.employee {
+  color: black;
+}
+h3.fitness {
+  color: red;
+}
+h3.generator {
+  color: red;
+}
